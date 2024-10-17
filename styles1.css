@@ -1,0 +1,78 @@
+/* General Page Style */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background */
+    color: #000; /* Default text color */
+    position: relative;
+}
+
+/* Product Page Container */
+.product-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-card h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #000; /* Black text */
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 15px 0;
+}
+
+/* Back Link Style */
+.back-link {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.back-link:hover {
+    background-color: #444;
+}
+
+/* Product Page Button */
+.product-card button {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #5a0f5f;
+}
